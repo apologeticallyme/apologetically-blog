@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'ComicSans';
-    src: url(fonts/comic-sans.ttf) format('truetype');
+    src: url('fonts/comic-sans.ttf') format('truetype');
 
 }
 
@@ -132,7 +132,7 @@
     color: #00FFAE;
     text-decoration: underline;
 
-    animation: animate 15s linear infinite;
+    animation: animate 30s linear infinite;
     padding-top: 20px;
     padding-left: 100%;
     display: inline-block;
@@ -151,29 +151,6 @@
     100%{
         transform: translate(-100%, 0);
     }
-}
-
-.confetti-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    pointer-events: none;
-    
-    background-image: url('CONFETTI.gif');
-    background-repeat: repeat;
-    background-size: auto;
-
-    z-index: 1;
-    pointer-events: none;
-}
-
-.foreground-content {
-    z-index: 0;
-
-    display: flex;
-    flex-direction: column;
 }
 
 .other-container {
