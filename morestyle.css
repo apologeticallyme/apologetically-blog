@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Consolas';
+    src: url('fonts/consolas.ttf');
+}
+
+body {
+    background-color: black;
+    font-family: 'Consolas', 'Times New Roman', Times, serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+    
+}
+
+img {
+    width: 150px;
+    padding-right: 0.5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row-one, .row-two, .row-three, .row-four, .row-five {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-two, .row-three, .row-four, .row-five {
+    padding-top: 0.5rem;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+}
+
