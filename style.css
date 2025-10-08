@@ -33,7 +33,7 @@ body {
     
 
     width: 700px;
-    height: 1230px;
+    height: 1270px;
 
     display: flex;
     flex-direction: column;
@@ -90,7 +90,7 @@ body {
     font-weight: bold;
     display: inline-block;
     position: relative;
-    animation: animate 40s linear infinite;
+    animation: animate 110s linear infinite;
 }
 
 @keyframes animate {
@@ -122,7 +122,8 @@ body {
 }
 
 .about-me-block img {
-    width: 250px;
+    margin-left: 0;
+    width: 290px;
 }
 
 .tag-one {
