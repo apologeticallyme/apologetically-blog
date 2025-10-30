@@ -1,0 +1,30 @@
+body {
+    background-image: url("britney-background.jpg");
+    background-size: 135px 134px;
+
+    display: flex;
+    justify-content: center;
+
+    color: blue;
+}
+
+.container {
+    width: 700px;
+    height: 700px;
+
+    overflow: auto;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+
+}
+
+.conainter, p {
+    border: 1px;
+    border-style: solid;
+    padding: 5px;
+}
