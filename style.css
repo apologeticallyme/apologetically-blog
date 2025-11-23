@@ -33,7 +33,7 @@ body {
     
 
     width: 700px;
-    height: 1270px;
+    height: 1520px;
 
     display: flex;
     flex-direction: column;
@@ -90,7 +90,7 @@ body {
     font-weight: bold;
     display: inline-block;
     position: relative;
-    animation: animate 120s linear infinite;
+    animation: animate 110s linear infinite;
 }
 
 @keyframes animate {
@@ -219,4 +219,14 @@ body {
 
 .link-two img {
     width: 60px;
+}
+
+.tag-two {
+    height: 250px;
+    background-image: url('fishes.jpg');
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
