@@ -33,7 +33,7 @@ body {
     
 
     width: 700px;
-    height: 1520px;
+    height: 1595px;
 
     display: flex;
     flex-direction: column;
@@ -157,6 +157,13 @@ body {
 .world-events li {
     list-style-type: disc;
 
+}
+
+.bare-work {
+    height: 75px;
+    background-image: url('thumb_091C.jpg');
+    display: flex;
+    justify-content: center;
 }
 
 .link-one {
