@@ -23,6 +23,11 @@
     src: url('fonts/bauhaus-Bold.ttf');
 }
 
+@font-face {
+    font-family: 'Curly';
+    src: url('fonts/singlegyrl.ttf');
+}
+
 body {
     background-image: url("581.GIF");
 
@@ -289,7 +294,9 @@ body {
 .collections-link {
     height: 150px;
     width: 700px;
-    background-image: url('wires.jpg');
+    background-image: url('lins.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 
     display: flex;
     align-items: center;
@@ -298,9 +305,10 @@ body {
 }
 
 .collections-link a {
-    font-size: 125px;
+    font-size: 65px;
     font-weight: bold;
-    font-family: 'Bauhaus', Helvetica, sans-serif;
+    font-family: 'Curly', Helvetica, sans-serif;
     text-decoration: none;
-    color: yellowgreen;
+    color: pink;
+    -webkit-text-stroke: 2.5px black;
 }
